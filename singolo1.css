@@ -4,6 +4,7 @@ body{
     margin: 0;
     height: 100vh;
     font-family: "Lato", sans-serif;
+    cursor: default;
 }
 
 .wrapper{
@@ -27,7 +28,6 @@ body{
     align-items:center;
     overflow:hidden;
     border-bottom: solid #323746 6px;
-    
 }
 
 .navigation{
@@ -47,13 +47,11 @@ body{
     float: left;
     position: relative;
     text-decoration: none;
-    
 }
 
 .navigation li a{
     text-decoration: none;
     color: #fff;
-    
 }
 
 
@@ -99,3 +97,42 @@ body{
     color: #f06c64;
     
 }
+
+/*SLIDER*/
+
+.slider-container{
+    height: 594px;
+    background-color: #f06c64;
+    border-bottom: solid 6px #ea676b;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    overflow:hidden;
+}
+
+.fas{
+    color: #ca4549;
+    padding: 15px 40px;
+    font-size: 2rem;
+    float: left;
+}
+.slider-container a:hover .fas{
+    color:#fa898d;
+    cursor: pointer;
+}
+
+.vertical{
+    float: left;
+    margin-left: -61px;
+    margin-top: -8px;;
+    margin-right: 0.02px;
+    
+}
+
+.horizontal{
+    float: left;
+    margin-right: -60px;
+    margin-top: -8px;
+}
+
