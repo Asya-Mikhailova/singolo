@@ -167,9 +167,10 @@ body{
     color: #767e9e;
     text-align: left;
     margin-left: 40px;
+    margin-right: 20px;
     margin-top: -5px;
     font-weight: 300;
-    letter-spacing: -0.002em;
+    
     
 }
 
@@ -177,6 +178,7 @@ body{
     display: flex;
     margin: 40px;
     color: #767e9e;
+    
     
 }
 
@@ -186,30 +188,118 @@ body{
     font-weight: 900;
     text-align: left;
     float:left;
-    margin-top: -15px;
-    margin-left: 20px;
-   
+}
+.head1 {
+    margin-left: 19px;
+    margin-top: -12px;
+    margin-bottom: 9px;
+    
 }
 
+.head2{
+    margin-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.head3{
+    margin-left: 19px;
+    margin-top: -12px;
+    margin-bottom: 10px;
+}
+
+.head4{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.head5{
+    margin-left: 20px;
+    margin-top: -12px;
+    margin-bottom: 10px;
+}
+
+.head6{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
 .service p {
-   width: 200px;
+    width: 218px;
     font-size: 12px;
     line-height: 22px;
     font-weight: 400;
     text-align: left;
-    float: left;
     overflow: hidden;
-    margin-left: 15px;
-    margin-top: -5px;
-    margin-bottom: 50px;
+   
     
+}
+
+.par1{
+    margin-left: 80px;
+    
+}
+
+.par2{
+    margin-left: 80px;
+   
+}
+
+.par3{
+    margin-left: 100px;
+    
+   
+}
+
+.par4{
+    margin-left: 100px;
+   
+   
+}
+
+.par5{
+    margin-left: 105px;
+    letter-spacing: 0.02em;
+    
+}
+
+.par6{
+    margin-left: 105px;
+   
 }
 
 .icon-round{
     float: left;
-    margin-right: 20px;
+   
 }
 
-.service-container{
-    display: block;
+.icon1{
+    margin-top: -8px;
+    margin-left: 1px;
 }
+
+.icon2{
+    margin-top: 19px;
+    margin-left: 1px;
+}
+
+.icon3{
+    margin-top: -8px;
+    margin-left: 22px;
+}
+.icon4{
+    margin-top: 19px;
+    margin-left: 22px;
+}
+
+.icon5{
+    margin-top: -8px;
+    margin-left: 24px;
+}
+
+.icon6{
+    margin-top: 17px;
+    margin-left: 24px;
+}
+
+
