@@ -4,13 +4,11 @@ body{
     margin: 0;
     height: 100vh;
     font-family: "Lato", sans-serif;
-    
 }
 
 .wrapper{
     width: 1020px;
     margin: 0 auto;
-    
 }
 
 /*HEADER*/
@@ -95,7 +93,6 @@ body{
 
 #active{
     color: #f06c64;
-    
 }
 
 /*SLIDER*/
@@ -117,6 +114,7 @@ body{
     font-size: 2rem;
     float: left;
 }
+
 .slider-container a:hover .fas{
     color:#fa898d;
     cursor: pointer;
@@ -127,7 +125,6 @@ body{
     margin-left: -61px;
     margin-top: -8px;;
     margin-right: 0.02px;
-    
 }
 
 .horizontal{
@@ -170,16 +167,12 @@ body{
     margin-right: 20px;
     margin-top: -5px;
     font-weight: 300;
-    
-    
 }
 
 .layout-3-column{
     display: flex;
     margin: 40px;
     color: #767e9e;
-    
-    
 }
 
 .service h3{
@@ -189,11 +182,11 @@ body{
     text-align: left;
     float:left;
 }
+
 .head1 {
     margin-left: 19px;
     margin-top: -12px;
     margin-bottom: 9px;
-    
 }
 
 .head2{
@@ -201,6 +194,7 @@ body{
     margin-top: 16px;
     margin-bottom: 10px;
 }
+
 .head3{
     margin-left: 19px;
     margin-top: -12px;
@@ -224,6 +218,7 @@ body{
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 .service p {
     width: 218px;
     font-size: 12px;
@@ -231,46 +226,35 @@ body{
     font-weight: 400;
     text-align: left;
     overflow: hidden;
-   
-    
 }
 
 .par1{
     margin-left: 80px;
-    
 }
 
 .par2{
     margin-left: 80px;
-   
 }
 
 .par3{
     margin-left: 100px;
-    
-   
 }
 
 .par4{
     margin-left: 100px;
-   
-   
 }
 
 .par5{
     margin-left: 105px;
     letter-spacing: 0.02em;
-    
 }
 
 .par6{
     margin-left: 105px;
-   
 }
 
 .icon-round{
     float: left;
-   
 }
 
 .icon1{
@@ -287,6 +271,7 @@ body{
     margin-top: -8px;
     margin-left: 22px;
 }
+
 .icon4{
     margin-top: 19px;
     margin-left: 22px;
@@ -301,5 +286,3 @@ body{
     margin-top: 17px;
     margin-left: 24px;
 }
-
-
