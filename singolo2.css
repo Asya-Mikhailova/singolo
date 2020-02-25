@@ -186,8 +186,7 @@ body{
 
 }
 
-.social-links a:hover{
+.social-links img:hover{
     cursor: pointer;
-    color: #2d303a;
-}
+    filter:  contrast(300%) sepia(50%) saturate(50%) brightness(50%);
 
