@@ -30,6 +30,7 @@ body{
     line-height: 18px;
     margin-left: 40px;
     padding-top: 69px;
+    letter-spacing: -0.0019em;
 }
 
 .portfolio-container p {
@@ -56,7 +57,7 @@ body{
     border: 1px solid #666d89;
     border-radius: 5px;
     font-size: 12px;
-    line-height: 22px;
+    line-height: 21.5px;
     color: #767e9e;
     font-weight: 400;
     text-align: left;
@@ -78,6 +79,7 @@ body{
     height: 22px;
     margin-left: 0.6px;
     margin-top: 10.5px;
+    letter-spacing: -0.0019em;
 }
 
 .web{
@@ -86,6 +88,7 @@ body{
     text-align: center;
     margin-left: 0.6px;
     margin-top: 10.5px;
+    letter-spacing: -0.0019em;
 }
 
 .graphic {
@@ -94,6 +97,7 @@ body{
     text-align: center;
     margin-left: -0.1px;
     margin-top: 10.5px;
+    letter-spacing: -0.0019em;
 }
 
 .art{
@@ -102,6 +106,7 @@ body{
     text-align: center;
     margin-left: -0.1px;
     margin-top: 10.5px;
+    letter-spacing: -0.0019em;
 }
 
 .portfolio-pictures{
@@ -174,11 +179,13 @@ body{
 
 .about h4{
     font-size: 18px;
-    line-height: 18px;
+    line-height: 20px;
     font-weight: 900;
     text-align: left;
     margin-top: 14px;
     letter-spacing: -0.02em;
+    overflow: hidden;
+    height: 20px;
 }
 
 .about p {
@@ -187,7 +194,7 @@ body{
     font-weight: 400;
     text-align: left;
     margin-left: 0px;
-    margin-top: -15px;
+    margin-top: -16px;
     letter-spacing: -0.009em;
     width: 300px;
 }
