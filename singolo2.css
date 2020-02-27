@@ -16,11 +16,10 @@ body{
 
 /*PORTFOLIO*/
 .portfolio-container{
-    height: 864px;
+    height: 870px;
     background-color: #2d303a;
     border-bottom: solid 6px #323746;
     
-
 }
 
 .portfolio-container h2 {
@@ -30,7 +29,7 @@ body{
     text-align: left;
     line-height: 18px;
     margin-left: 40px;
-    padding-top: 60px;
+    padding-top: 69px;
 }
 
 .portfolio-container p {
@@ -41,7 +40,8 @@ body{
     line-height: 30px;
     text-align: left;
     margin-left: 40px;
-    padding-top: 30px;
+    padding-top: 27px;
+    letter-spacing: 0.01em;
 }
 
 .portfolio-buttons{
@@ -49,8 +49,6 @@ body{
     flex-wrap:wrap;
     justify-content: left;
     margin-left: 40px;
-
-
 }
 
 .button {
@@ -62,7 +60,7 @@ body{
     color: #767e9e;
     font-weight: 400;
     text-align: left;
-    margin: 20px 10px 20px 0;
+    margin: 10px 10px 20px 0;
 }
 
 .button:hover{
@@ -75,28 +73,35 @@ body{
 .white {
     color:#dedede;
     border: 1px solid #dedede;
-    width: 29px;
+    width: 30px;
     text-align: center;
     height: 22px;
-
+    margin-left: 0.6px;
+    margin-top: 10.5px;
 }
 
 .web{
     width: 78px;
     height: 22px;
     text-align: center;
+    margin-left: 0.6px;
+    margin-top: 10.5px;
 }
 
 .graphic {
     width: 93px;
     height: 22px;
     text-align: center;
+    margin-left: -0.1px;
+    margin-top: 10.5px;
 }
 
 .art{
     width: 57px;
     height: 22px;
     text-align: center;
+    margin-left: -0.1px;
+    margin-top: 10.5px;
 }
 
 .portfolio-pictures{
@@ -107,11 +112,14 @@ body{
 .layout-4-columns{
     display: flex;
     justify-content: space-between;
+    height: 610px;
     overflow: hidden;
+   
 }
 
+
 .picture img {
-    margin: 10px 20px 10px 0;
+    margin: 0 20px 17px 0;
 }
 
 /*ABOUT US*/
@@ -123,7 +131,7 @@ body{
 }
 
 .about-us-container h2{
-    padding-top: 65px;
+    padding-top: 68px;
     margin-left: 40px;
     font-size: 30px;
     line-height: 18px;
@@ -133,25 +141,31 @@ body{
 }
 
 .about-us-container p{
-    padding-top: 35px;
+    padding-top: 26px;
     margin-left: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
     font-weight: 300;
     text-align: left;
     margin-right: 40px;
-   
 }
 
 .layout-3-columns {
     display: flex;
-    justify-content: center;
-    margin-right: 40px;
-    margin-left: 40px;
-  
+    justify-content: space-between;
+    padding-left: 25px;
 }
+
+  .middle-image{
+      margin-left: -35px;
+      
+  }
+
+    .right-image{
+        margin-left: -35px;
+    }
 
 .about{
     color: #767e9e;
@@ -163,8 +177,8 @@ body{
     line-height: 18px;
     font-weight: 900;
     text-align: left;
-    margin-top: 20px;
-
+    margin-top: 14px;
+    letter-spacing: -0.02em;
 }
 
 .about p {
@@ -173,20 +187,87 @@ body{
     font-weight: 400;
     text-align: left;
     margin-left: 0px;
-    margin-top: -20px;
-    
+    margin-top: -15px;
+    letter-spacing: -0.009em;
+    width: 300px;
+}
+.about .head2{
+    margin-left: -35px;
+}
+
+.about .head3{
+    margin-left: -35px;
+}
+
+.about .par2{
+    margin-left: -35px;
+}
+
+.about .par3{
+    margin-left: -35px;
 }
 
 .social-links{
-    margin-top: -30px;
+    margin-top: -24px;
+    text-align: left;
 }
 
-.social-links a{
 
-
+.second{
+    margin-left: -40px;
 }
+
 
 .social-links img:hover{
     cursor: pointer;
     filter:  contrast(300%) sepia(50%) saturate(50%) brightness(50%);
+}
 
+.three{
+    margin-left:-40px !important;
+    text-align: left;
+}
+
+.facebook1{
+    margin-left: 1px;
+} 
+.google1{
+    margin-left: 5px;
+}
+
+.twitter1{
+    margin-left: 5px;
+}
+
+.linkedin1{
+    margin-left: 5px;
+}
+.facebook2{
+    margin-left: 5px;
+}
+.google2{
+    margin-left: 5px;
+}
+
+.twitter2{
+    margin-left: 5px;
+}
+.linkedin2{
+    margin-left: 5px;
+}
+
+.facebook3{
+    margin-left: 5px;
+}
+
+.google3{
+    margin-left: 5px;
+}
+
+.twitter3{
+    margin-left: 5px;
+}
+
+.linkedin3{
+    margin-left: 5px;
+}
