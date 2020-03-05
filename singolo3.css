@@ -63,7 +63,14 @@ body{
     margin-top: 10px;
     width: 619px;
     height: 38px;
+    padding-left: 10px;
 
+}
+
+.quote-contact input:focus{
+    background: #d6564f;
+    color:#f48c8f;
+    outline-color: #f0d8d9;
 }
 
 .quote-contact input::placeholder{
@@ -89,6 +96,13 @@ body{
     margin-top: 10px;
     width: 619px;
     height: 202px;
+    padding-left: 10px;
+}
+
+.quote-contact textarea:focus{
+    background: #d6564f;
+    color:#f48c8f;
+    outline-color: #f0d8d9;
 }
 
 .quote-contact textarea::placeholder{
@@ -99,7 +113,7 @@ body{
     font-weight: 400;
     text-align: left; 
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 #submit{
@@ -110,6 +124,7 @@ body{
     font-family: "Lato";
     font-weight: 300;
     text-align: center; 
+    padding-left:0;
 }
 
 .quote-contact h4{
@@ -143,4 +158,39 @@ body{
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
+}
+
+/*FOOTER*/
+
+.footer-container{
+    width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+    color: #666d89;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+
+.footer-container p{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer-container ul{
+    display: flex;
+    margin-right: 40px;
+    margin-top: 20px;
+   
+}
+
+.footer-container li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.footer-container img:hover{
+    cursor: pointer;
+    filter: invert(58%) sepia(67%) saturate(399%) hue-rotate(309deg) brightness(104%) contrast(92%);
 }
