@@ -17,20 +17,32 @@ body{
 /*GET A QUOTE*/
 .quote-container{
     width: 1020px;
-    height: 642px;
+    height: 654px;
     background-color: #f06c64;
     color: #f0d8d9;
     border-bottom: solid 6px #ea676b;
 }
 
-.quote-container h2,p{
+.quote-container h2{
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
     margin-left: 40px;
-    padding-top: 20px;
+    padding-top: 68px;
+    letter-spacing: -0.01em;
+}
+
+.quote-container p{
+    margin-left: 40px; 
 }
 
 .quotes{
     margin-left: 40px;
     margin-right: 40px;
+    padding-top: 26.5px;
     width: 940px;
     height: 57px;
     font-size: 18px;
@@ -38,15 +50,15 @@ body{
     color: #f0d8d9;
     font-family: "Lato";
     font-weight: 300;
-    text-align: left;
+    text-align: justify;
+    
 }
 
 .layout-2-columns{
     display: flex;
-    margin-top: 40px;
+    margin-top: 63px;
     margin-left: 40px;
     margin-right: 40px;
-  
 }
 
 
@@ -61,6 +73,7 @@ body{
     font-weight: 400;
     text-align: left; 
     margin-top: 10px;
+    margin-bottom: 6.5px;
     width: 619px;
     height: 38px;
     padding-left: 10px;
@@ -80,7 +93,8 @@ body{
     font-family: "Lato";
     font-weight: 400;
     text-align: left; 
-    padding-left: 20px;
+    padding-left: 5px;
+    letter-spacing: 0.01em;
 }
 
 .quote-contact textarea{
@@ -93,7 +107,7 @@ body{
     font-family: "Lato";
     font-weight: 400;
     text-align: left; 
-    margin-top: 10px;
+    margin-top: 9px;
     width: 619px;
     height: 202px;
     padding-left: 10px;
@@ -112,8 +126,8 @@ body{
     font-family: "Lato";
     font-weight: 400;
     text-align: left; 
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 5px;
+    padding-top: 7px;
 }
 
 #submit{
@@ -134,31 +148,53 @@ body{
     line-height: 18px;
     color: #f0d8d9;
     font-family: "Lato";
-    font-weight: 900;
+    font-weight: 800;
     text-align: left;
 }
 
 .quote-contact .text {
+    margin-top: 11px;
+    margin-bottom: 20px;
     margin-left: 20px;
     width: 300px;
-    height: 175px;
     font-size: 12px;
     line-height: 22px;
     color: #f0d8d9;
     font-family: "Lato";
     font-weight: 400;
     text-align: justify;
+    letter-spacing: -0.02em;
 }
 
 .quote-contact .info{
     margin-left: 20px;
+    color: #f0d8d9;
     font-size: 12px;
     line-height: 22px;
-    color: #f0d8d9;
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
+    letter-spacing: 0.01em;
+    
 }
+.quote-contact .info-location img{
+    margin-right: 12px;
+    margin-left: 4px;
+ }
+
+
+.quote-contact .info-phone img{
+    margin-right: 12px;
+    margin-left: 2px;
+ }
+
+ 
+ .quote-contact .info-mail img{
+    margin-right: 8px;
+    margin-left: 2px;
+ }
+
+
 
 /*FOOTER*/
 
@@ -175,19 +211,29 @@ body{
 
 .footer-container p{
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 27px;
+    margin-left: 43px;
+    font-size: 11.5px;
+    line-height: 22px;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
 }
+    
 
 .footer-container ul{
     display: flex;
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 22px;
+    justify-content: space-between;
+    
    
 }
 
 .footer-container li{
     list-style: none;
-    margin-left: 10px;
+    margin-left: 8px;
+   
 }
 
 .footer-container img:hover{
