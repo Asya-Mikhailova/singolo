@@ -78,7 +78,7 @@ body{
     padding-left: 40px;
     font-size: 25px;
     line-height: 7px;
-    font-weight: 700;
+    font-weight: 500;
     float: left;
     letter-spacing: -0.02em;
 }
@@ -112,7 +112,7 @@ body{
 
 .fas{
     color: #ca4549;
-    padding: 15px 40px;
+    margin: -5px 38px 0 40px;
     font-size: 2rem;
     float: left;
 }
@@ -124,15 +124,15 @@ body{
 
 .vertical{
     float: left;
-    margin-left: -61px;
-    margin-top: -8px;;
-    margin-right: 0.02px;
+    margin-left: -59.5px;
+    margin-top: -5px;;
+    
 }
 
 .horizontal{
     float: left;
-    margin-right: -60px;
-    margin-top: -8px;
+    margin-right: -59.5px;
+    margin-top: -7px;
 }
 
 /*SERVICES*/
@@ -185,9 +185,9 @@ body{
 }
 
 .head1 {
-    margin-left: 19px;
-    margin-top: -27px;
-    margin-bottom: 9px;
+    margin-left: 20px;
+    margin-top: -28px;
+    margin-bottom: 11px;
     color: #767e9e;
 }
 
@@ -199,7 +199,7 @@ body{
 }
 
 .head3{
-    margin-left: 19px;
+    margin-left: 20px;
     margin-top: -28px;
     margin-bottom: 10px;
     color: #767e9e;
@@ -214,7 +214,7 @@ body{
 
 .head5{
     margin-left: 20px;
-    margin-top: -30px;
+    margin-top: -28px;
     margin-bottom: 10px;
     color: #767e9e;
 }
@@ -238,6 +238,7 @@ body{
 
 .par1{
     margin-left: 80px;
+    letter-spacing: 0.02em;
 }
 
 .par2{
@@ -245,20 +246,20 @@ body{
 }
 
 .par3{
-    margin-left: 100px;
+    margin-left: 101px;
 }
 
 .par4{
-    margin-left: 100px;
+    margin-left: 101px;
 }
 
 .par5{
-    margin-left: 105px;
+    margin-left: 103px;
     letter-spacing: 0.02em;
 }
 
 .par6{
-    margin-left: 105px;
+    margin-left: 103px;
 }
 
 .icon-round{
@@ -266,7 +267,7 @@ body{
 }
 
 .icon1{
-    margin-top: -24px;
+    margin-top: -25px;
     margin-left: 1px;
 }
 
@@ -276,7 +277,7 @@ body{
 }
 
 .icon3{
-    margin-top: -23px;
+    margin-top: -25px;
     margin-left: 22px;
 }
 
@@ -286,13 +287,13 @@ body{
 }
 
 .icon5{
-    margin-top: -28px;
-    margin-left: 24px;
+    margin-top: -25px;
+    margin-left: 23px;
 }
 
 .icon6{
-    margin-top: 30px;
-    margin-left: 24px;
+    margin-top: 32px;
+    margin-left: 23px;
 }
 
 /*PORTFOLIO*/
@@ -409,7 +410,7 @@ body{
 
 .about-us-container{
     background-color:  #f2f2f2;
-    height: 722px;
+    height: 734px;
     border-bottom: 6px solid #fff;
 }
 
