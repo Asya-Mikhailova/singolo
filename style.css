@@ -686,6 +686,7 @@ body{
 
 #submit:hover{
     cursor: pointer;
+    color: #666d89;
 }
 
 .quote-contact h4{
