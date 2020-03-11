@@ -57,6 +57,12 @@ body{
     color: #fff;
 }
 
+.navigation li a.active{
+    text-decoration: none;
+    color: #f06c64;
+
+}
+
 .navigation li a:hover{
     color: #f06c64;
     cursor: pointer;
@@ -94,7 +100,7 @@ body{
 }
 
 .active{
-    color: #f06c64 !important;
+    color: #f06c64 ;
 }
 
 /*SLIDER*/
@@ -231,7 +237,7 @@ body{
     font-size: 12px;
     line-height: 22px;
     font-weight: 400;
-    text-align: left;
+    text-align: justify;
     overflow: hidden;
     color: #767e9e;
 }
