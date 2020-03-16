@@ -167,14 +167,14 @@ body{
 }
 .vertical-black{
   position: absolute;
-  top: 124px;
+  top: 214px;
   left: 132px;
   z-index: 1;
 }
 
 .horizontal-black{
   position: absolute;
-  top: 203px;
+  top: 294px;
   left: 500px;
   z-index: 1;
 }
