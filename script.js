@@ -56,19 +56,19 @@ PHONE_HORIZONTAL.addEventListener('click', function(){
 
 /*Change activity of portfolio tags and change of img position */
 PORTFOLIO_BUTTONS.addEventListener('click', (event)=> {
-    PORTFOLIO_BUTTONS.querySelectorAll('button').forEach(el => el.classList.remove('white'));
-    event.target.classList.add('white');
-     let images = [];
-    let temp;
-    PICTURES.document.querySelectorAll('img').forEach(el=>{images.push(el)});
-    temp = images.shift();
-    images.push(temp);
-    images.forEach(el=> PICTURES.appendChild(el));
+    if(event.target.classList.contains ('button')){
+        PORTFOLIO_BUTTONS.querySelectorAll('button').forEach(el => el.classList.remove('white'));
+        PICTURES.querySelectorAll('img').forEach (el => el.classList.remove('border'));
+        event.target.classList.add('white');
+        let images = PICTURES.querySelectorAll('img');
+        PICTURES.appendChild(images[0]);
+    }
 });
 
 
 /* Add border to the image on clicking it*/
 PICTURES.addEventListener('click', (event)=>{
+
     PICTURES.querySelectorAll('img').forEach(el=>el.classList.remove('border'));
     event.target.classList.add('border');
 });
@@ -76,19 +76,17 @@ PICTURES.addEventListener('click', (event)=>{
 /*Modal window on submit button*/
 
     FORM.addEventListener('submit', (e)=>{
-        this.checkValidity();
         e.preventDefault();
-    })
-
-    SUBMIT_BTN.addEventListener('submit', (e) =>{
-        e.preventDefault();
-        const topic= document.getElementById('topic').value.toString();
-        const project = document.getElementById('project').value.toString();
+        let isValid =FORM.checkValidity();
+        if(isValid){
+            let topic= document.getElementById('topic').value.toString();
+        let project = document.getElementById('project').value.toString();
         topic == '' ? document.getElementById('empty-subject').innerText = 'Без темы' : document.getElementById('subject').innerText = topic;
         project == '' ? document.getElementById('empty-description').innerText = 'Без описания' : document.getElementById('description').innerText = project;
         document.getElementById('message-block').classList.remove('hide');
-        
+        }
     })
+
     
 
 CLOSE_BTN.addEventListener('click', () =>{
@@ -96,4 +94,3 @@ CLOSE_BTN.addEventListener('click', () =>{
     document.getElementById('project').innerText = '';
     document.getElementById('message-block').classList.add('hide');
 })
-

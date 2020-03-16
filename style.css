@@ -30,9 +30,9 @@ body{
     flex-wrap:wrap;
     justify-content:space-between;
     align-items:center;
-    overflow:hidden;
     border-bottom: solid #323746 6px;
     position: fixed;
+    z-index: 1;
 }
 
 .navigation{
@@ -112,6 +112,8 @@ body{
     width: 1020px;
     position: relative;
     margin: auto;
+    scroll-margin-top: 95px;
+    padding-top: 90px;
     
 }
 
@@ -368,7 +370,7 @@ body{
 
 /*PORTFOLIO*/
 .portfolio-container{
-    height: 870px;
+    height: 890px;
     background-color: #2d303a;
     border-bottom: solid 6px #323746;
     padding-top: 50px;
@@ -471,17 +473,17 @@ body{
 .layout-4-columns{
     display: flex;
     justify-content: space-between;
-    height: 610px;
+    height: 620px;
     overflow: hidden;
 }
 
 
 .picture img {
-    margin: 0 20px 17px 0;
+    margin: 5px 15px 15px 5px;
 }
 
 .border {
-    border: solid 5px #F06C64;
+    outline: solid 5px #F06C64;
 }
 
 /*ABOUT US*/
@@ -647,6 +649,7 @@ body{
     background-color: #f06c64;
     color: #f0d8d9;
     border-bottom: solid 6px #ea676b;
+    scroll-margin-top: 95px;
 }
 
 .quote-container h2{
