@@ -32,10 +32,21 @@
     <section class="slider" id="home">
         <div class="wrapper">
             <div class="slider-container">
-                <a href="#"><i class="fas fa-chevron-left"></i></a>
-                <img class="vertical" src="assets/vertical.png" alt="#">
-                <img class="horizontal" src="assets/horizontal.png" alt="#">
-                <a href="#"><i class="fas fa-chevron-right"></i></a>
+
+                <div class="mySlides fade " id="slide-1">
+                    <img class="vertical" src="assets/vertical.png" alt="#">
+                    <img src="assets/screen-vertical-black.png" alt="black-screen" class="vertical-black hidden">
+                    <img class="horizontal" src="assets/horizontal.png" alt="#">
+                    <img src="assets/screen-horizontal-black.png" alt="" class="horizontal-black hidden">
+                </div>
+
+                <div class="mySlides fade" id="slide-2">
+                    <img src="assets/Slide-2.png" alt="">
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
             </div>  
         </div>
     </section>
@@ -116,18 +127,12 @@
                             <img src="assets/Image1.png" alt="#">
                             <img src="assets/Image2.png" alt="#">
                             <img src="assets/Image3.png" alt="#">
-                        </div>
-                        <div class="picture">
                             <img src="assets/Image4.png" alt="#">
                             <img src="assets/Image5.png" alt="#">
                             <img src="assets/Image6.png" alt="#">
-                        </div>
-                        <div class="picture">
                             <img src="assets/Image7.png" alt="#">
                             <img src="assets/Image8.png" alt="#">
                             <img src="assets/Image9.png" alt="#">
-                        </div>
-                        <div class="picture">
                             <img src="assets/Image10.png" alt="#">
                             <img src="assets/Image11.png" alt="#">
                             <img src="assets/Image12.png" alt="#">
@@ -190,13 +195,23 @@
                 <p class="quotes">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum mibh.</p>
                 <div class="layout-2-columns">
                     <div class="quote-contact">
-                        <form action="">
+                        <form action="" method="" >
                             <input type="text" id="name" placeholder="Name(Required)" autofocus required ><br>
                             <input type="email" id="email" placeholder="Email(Requered)" autofocus required><br>
-                            <input type="text" id="subject" placeholder="Subject" autofocus><br>
+                            <input type="text" id="topic" placeholder="Subject" autofocus><br>
                             <textarea name="project" id="project" cols="30" rows="10" placeholder="Describe your project in detail..." ></textarea><br>
                             <input type="submit" id="submit" value="Submit">
                         </form>
+                        <div id="message-block" class="hide">
+                            <div id="message">
+                                <p>Письмо отправлено</p>
+                                <p id="empty-subject">Тема: <span id="subject"></span></p>
+                                <p id="empty-description">Описание: <span id="description"></span></p>
+                                <br>
+                                <button id="close-btn">OK</button>
+                            </div>
+                        </div>
+                
                     </div>
                     <div class="quote-contact">
                         <h4>Contact Information</h4>

@@ -19,12 +19,11 @@ body{
 /*HEADER*/
 .header{
     height: 95px;
-    position: fixed;
-    margin-left: 450px;
 }
 
 .header-container{
     height: 95px;
+    width: 1020px;
     background-color: #2d303a;
     color: #fff;
     display:flex;
@@ -33,6 +32,7 @@ body{
     align-items:center;
     overflow:hidden;
     border-bottom: solid #323746 6px;
+    position: fixed;
 }
 
 .navigation{
@@ -62,12 +62,12 @@ body{
 .navigation li a.active{
     text-decoration: none;
     color: #f06c64;
-
 }
 
 .navigation li a:hover{
     color: #f06c64;
     cursor: pointer;
+    transition: all .3s;
 }
 
 .navigation li:not(:first-child)::before{
@@ -99,6 +99,7 @@ body{
 .logo a:hover{
     cursor: pointer;
     color: #f06c64;
+    transition: all .3s;
 }
 
 .active{
@@ -108,41 +109,98 @@ body{
 /*SLIDER*/
 
 .slider-container{
-    height: 695px;
-    background-color: #f06c64;
-    border-bottom: solid 6px #ea676b;
+    width: 1020px;
+    position: relative;
+    margin: auto;
+    
+}
+
+.mySlides{
+    display:none;
+}
+
+#slide-1{
+    height: 594px;
     display: flex;
     flex-wrap:wrap;
     justify-content:space-between;
     align-items:center;
-    overflow:hidden;
-    padding-top: 120px;
-    
+    background-color: #f06c64;
+    border-bottom: solid 6px #ea676b;
 }
 
-.fas{
+.prev, .next{
     color: #ca4549;
-    margin: -5px 38px 0 40px;
     font-size: 2rem;
-    float: left;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
-.slider-container a:hover .fas{
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    padding-right: 40px;
+  }
+
+  .prev{
+      padding-left: 40px;
+  }
+
+.prev:hover, .next:hover{
     color:#fa898d;
     cursor: pointer;
+    transition: all .3s;
 }
 
 .vertical{
-    float: left;
-    margin-left: -59.5px;
-    margin-top: -5px;;
-    
+  margin-top: 60px;
+  margin-left: 120px;
+}
+.vertical-black{
+  position: absolute;
+  top: 124px;
+  left: 132px;
+  z-index: 1;
+}
+
+.horizontal-black{
+  position: absolute;
+  top: 203px;
+  left: 500px;
+  z-index: 1;
 }
 
 .horizontal{
-    float: left;
-    margin-right: -59.5px;
-    margin-top: -7px;
+  margin-left: 80px;
+  margin-bottom: 110px;
+}
+/*Fading animation*/
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.hidden{
+    display: none;
 }
 
 /*SERVICES*/
@@ -168,6 +226,7 @@ body{
     margin-left: 40px;
     margin-top: 48px;
     letter-spacing: -0.002em;
+   
 }
 
 .intro {
@@ -361,6 +420,7 @@ body{
     cursor: pointer;
     color: #dedede;
     border: 1px solid #dedede;
+    transition: all .3s;
 }
 
 .all {
@@ -524,6 +584,7 @@ body{
 .social-links img:hover{
     cursor: pointer;
     filter:  contrast(300%) sepia(50%) saturate(50%) brightness(50%);
+    transition: all .3s;
 }
 
 .three{
@@ -696,16 +757,61 @@ body{
     width: 100px;
     font-size: 16px;
     line-height: 30px;
-    color: #f0d8d9;
+    color: #886A30;
     font-family: "Lato";
     font-weight: 300;
     text-align: center; 
     padding-left:0;
+    background: #FBC65F;
 }
 
 #submit:hover{
     cursor: pointer;
-    color: #666d89;
+    color: #f0d8d9;
+    background: #d6564f;
+    transition: all .3s;
+}
+
+#message-block{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #0008;
+}
+
+#message-block.hide{
+    display: none;
+}
+
+#message{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    border: 1px solid #ca4549;
+    border-radius: 5px;
+    text-align: left;
+    background: #f0d8d9;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-right: 30px;
+    line-height: 26px;
+}
+
+#message p{
+    margin-top: 5px;
+}
+
+#close-btn{
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding: 7px;
+    background: #fa898d;
+    color: #f0d8d9;
 }
 
 .quote-contact h4{
@@ -797,5 +903,6 @@ body{
 .footer-container img:hover{
     cursor: pointer;
     filter: invert(58%) sepia(67%) saturate(399%) hue-rotate(309deg) brightness(104%) contrast(92%);
+    transition: all .3s;
 }
 
